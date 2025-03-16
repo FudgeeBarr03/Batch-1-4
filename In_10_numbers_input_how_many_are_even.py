@@ -7,3 +7,4 @@ for i in range(10):
         even_numbers += 1
 
 #output how many odd numbers are there
+print(f"There are {even_numbers} even numbers")
