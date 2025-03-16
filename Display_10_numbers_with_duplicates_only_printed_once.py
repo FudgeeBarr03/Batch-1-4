@@ -13,3 +13,4 @@ for num in numbers:
         duplicate_numbers.append(num)
 
 #print duplicate values once
+print(first_time_num)
