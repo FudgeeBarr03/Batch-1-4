@@ -5,4 +5,8 @@ for i in range(10):
     numbers.append
     
 #subtract first number from all the other numbers
+result = numbers [0]
+for num in numbers[1:]:
+    result -= num
+
 #print difference
