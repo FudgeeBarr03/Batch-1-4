@@ -6,3 +6,4 @@ for i in range(10):
     total += number
 
 #print sum of numbers
+print("the sum of all the numbers is:", total)
