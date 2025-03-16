@@ -8,3 +8,4 @@ for i in range(10):
         odd_numbers +=1
         
 #output odd numbers
+print(f"There are {odd_numbers} odd numbers")
