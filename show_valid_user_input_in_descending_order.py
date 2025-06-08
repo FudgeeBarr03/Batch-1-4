@@ -1,9 +1,14 @@
 numbers = []
 
-#ask for user input
-num = float(input("Enter a number: "))
-#store numbers
-numbers.append(num)
+#create while loop and check for valid input
+while True:
+    try:
+        #ask for user input
+        num = float(input("Enter a number: "))
+        #store numbers
+        numbers.append(num)
+    except ValueError:
+        break
 
 #use sort() to arrange numbers
 if numbers:
