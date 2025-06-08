@@ -1,8 +1,12 @@
 numbers = []
 
-#ask for user input
-num = float(input("Enter a number: "))
-numbers.append(num)
+while True:
+    try:
+        #ask for user input
+        num = float(input("Enter a number: "))
+        numbers.append(num)
+    except ValueError:
+        break
 
 #print highest number
 if numbers:
