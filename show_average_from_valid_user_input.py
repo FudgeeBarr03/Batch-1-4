@@ -10,3 +10,6 @@ while True:
         break
 
 #get the average of the numbers by dividing the sum of all the number by the total amount of numbers
+if numbers:
+    average = sum(numbers) / len(numbers)
+    print("Average of numbers:", average)
