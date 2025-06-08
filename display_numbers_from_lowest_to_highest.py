@@ -6,4 +6,9 @@ num = float(input("Enter a number: "))
 numbers.append(num)
 
 #sort numbers
-#print sorted numbers
+if numbers:
+    numbers.sort
+    print("The numbers in ascending order:")
+    #print sorted numbers
+    for n in numbers:
+        print(n)
