@@ -11,4 +11,7 @@ duplicate = []
 for num in numbers:
     if numbers.count(num) > 1 and num not in duplicate:
         duplicate.append(num)
+        
 #print the duplicates
+if duplicate:
+    print(f"numbers with duplicates are: {duplicate}")
