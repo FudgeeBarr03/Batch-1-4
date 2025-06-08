@@ -1,9 +1,14 @@
 numbers = []
 
-#ask for user input until invalid input
-num = float(input("Enter a number: "))
-#store values
-numbers.append(num)
+#create loop and check for valid user input
+while True:
+    try:
+        #ask for user input until invalid input
+        num = float(input("Enter a number: "))
+        #store values
+        numbers.append(num)
+    except ValueError:
+        break
 
 #check and print most duplicated number 
 if numbers:
